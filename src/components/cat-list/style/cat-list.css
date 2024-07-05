@@ -1,0 +1,14 @@
+.cat-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.cat-card{
+    flex: calc(25% - 20px);
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+}
